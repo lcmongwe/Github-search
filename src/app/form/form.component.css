@@ -33,12 +33,20 @@
   border-radius: 10px;
   color: white;
   box-shadow: 5px white;
+  text-align: center;
 }
 
-#card-body input {
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #f9e8d9 0%,
-    rgba(249, 232, 217, 0) 100%
-  );
+#ui input {
+  background-color: transparent;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#submit:hover {
+  color: greenyellow;
+  transform: scale3d(1.2);
+}
+
+#submit {
 }
