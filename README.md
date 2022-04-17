@@ -4,7 +4,7 @@ Github Search.
 
 ## SCREENSHOT
 
-![QUOTES APP](src/assets/Screenshot.png)
+![QUOTES APP](src/assets/screenshot.png)
 
 ### :bulb: PROJECT DESCRIPTION
 
