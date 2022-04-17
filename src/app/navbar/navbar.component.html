@@ -1,52 +1,18 @@
-<nav
-  class="navbar navbar-expand-lg navbar-light bg-rgba(54, 87, 137, 0.37);"
-  id="nav"
->
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><b>GHS</b></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container">
+    <a href="#" class="navbar-brand">Github Search </a>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a
-            class="nav-link active"
-            routerLink="home"
-            routerLinkActive="active"
-            [ngStyle]="{ color: 'value=white' }"
-            ><b>HOME</b></a
-          >
+          <a href="Home" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link nav-link-active"
-            routerLink="login"
-            routerLinkActive="active"
-            ><b>LOGIN</b></a
-          >
+          <a href="About" class="nav-link">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>LOGOUT</b></a>
+          <a href="About" class="nav-link">search</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input
-          class="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
