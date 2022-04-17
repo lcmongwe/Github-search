@@ -4,6 +4,8 @@ Github Search.
 
 ## SCREENSHOT
 
+![QUOTES APP](src/assets/Screenshot.png)
+
 ### :bulb: PROJECT DESCRIPTION
 
 This is a simple angular app with a dynamic HTML,CSS, to make it more interactive. It allows the user to search for github profiles using their usernames and view their public repositories and profiles.
@@ -35,3 +37,7 @@ Have any questions? reach me on:
 1. Twitter : @lucy_Mongwe
 2. faceboook : Lucy Mongwe
 3. Email : lcmongwe@gmail.com
+
+### LICENSE AND COPYRIGHT INFORMATION
+
+MIT License

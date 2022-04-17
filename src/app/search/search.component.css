@@ -8,8 +8,32 @@
 .search img {
   height: 500pxpx;
   width: 500px;
+  border-radius: 25em;
+  margin-left: 40%;
 }
 
 .search {
   height: 100vh;
+}
+
+.search h4 {
+  text-align: center;
+  background: transparent;
+  color: white;
+}
+
+.search input {
+  text-align: center;
+  margin-left: 40%;
+  background: transparent;
+  height: 60px;
+  width: 400px;
+}
+
+.search row col-md-4 {
+  background: transparent;
+}
+
+#search {
+  margin-left: 48%;
 }
