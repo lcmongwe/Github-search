@@ -4,7 +4,7 @@ import { FormComponent } from './form/form.component';
 import { GithubComponent } from './github/github.component';
 
 const routes: Routes = [
-  { path: 'form', component: FormComponent },
+  { path: 'login', component: FormComponent },
   { path: 'home', component: GithubComponent },
   // { path: '**', component: NotFoundComponent },
   // { path: 'goals/:id', component: GoalDetailComponent },
