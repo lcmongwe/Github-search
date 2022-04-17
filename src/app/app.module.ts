@@ -7,9 +7,10 @@ import { FormComponent } from './form/form.component';
 import { GithubComponent } from './github/github.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [AppComponent, FormComponent, GithubComponent, NavbarComponent],
+  declarations: [AppComponent, FormComponent, GithubComponent, NavbarComponent, SearchComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
