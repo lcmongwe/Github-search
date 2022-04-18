@@ -15,3 +15,12 @@
 #start {
   margin-bottom: 10%;
 }
+
+.start {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.start #start {
+  margin-bottom: 30px;
+}

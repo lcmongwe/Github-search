@@ -1,15 +1,20 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { environment } from '../environments/environment';
-import { Data } from './data';
+import { lastValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class DataRequestService {
-  data: Data;
+  constructor(private httpClient: HttpClient) {}
 
-  constructor(private http: HttpClient) {
-    // this.data=new Data()
+  async getUser(userName: string) {
+    const promise = this.httpClient.get(
+      `${environment.githuapi}/users/${userName}`
+    );
+    return await lastValueFrom(promise)
+      .then((result) => result)
+      .catch((error) => console.log(error));
   }
 }

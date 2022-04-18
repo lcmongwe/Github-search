@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Data } from '../data';
+
+import { DataRequestService } from '../data-request.service';
 
 @Component({
   selector: 'app-github',
@@ -8,9 +8,8 @@ import { Data } from '../data';
   styleUrls: ['./github.component.css'],
 })
 export class GithubComponent implements OnInit {
-  // data: Data[];
+  constructor(public dataRequestService: DataRequestService) {}
+  datas: any;
 
-  constructor() {}
-
-  ngOnInit(): void {}
+  ngOnInit() {}
 }
