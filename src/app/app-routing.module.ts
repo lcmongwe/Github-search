@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'form', component: FormComponent },
   // { path: '**', component: NotFoundComponent },
   // { path: 'goals/:id', component: GoalDetailComponent },
-  // { path: '', redirectTo: '/goals', pathMatch: 'full' },
+  { path: '', redirectTo: '/git', pathMatch: 'full' },
 ];
 
 @NgModule({
