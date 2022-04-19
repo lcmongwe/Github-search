@@ -57,3 +57,7 @@
 #submit {
   margin-left: 50%;
 }
+
+.image img{
+  border-radius: 25em;
+}
