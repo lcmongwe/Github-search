@@ -10,9 +10,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class GithubComponent implements OnInit {
   imagePath: string;
+  path: string;
   
   constructor(public dataRequestService: DataRequestService, private http: HttpClient) {
-    this.imagePath='assets/images/animate.gif'
+    this.imagePath = 'assets/images/animate.gif'
+    this.path='assets/back1.jpg'
   }
   datas: any;
 
