@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { DataRequestService } from '../data-request.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-github',
@@ -8,7 +9,11 @@ import { DataRequestService } from '../data-request.service';
   styleUrls: ['./github.component.css'],
 })
 export class GithubComponent implements OnInit {
-  constructor(public dataRequestService: DataRequestService) {}
+  imagePath: string;
+  
+  constructor(public dataRequestService: DataRequestService, private http: HttpClient) {
+    this.imagePath='assets/images/animate.gif'
+  }
   datas: any;
 
   ngOnInit() {}

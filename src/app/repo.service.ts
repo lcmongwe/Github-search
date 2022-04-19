@@ -9,7 +9,7 @@ import { lastValueFrom } from 'rxjs';
 export class RepoService {
   constructor(private http: HttpClient) {}
   async getRepo(repoName: any) {
-    const promise = this.http.get(`${environment.githuapi}/users/${repoName}`);
+    const promise = this.http.get(`${environment.githuapi}/users/repos${repoName}`);
 
     return await lastValueFrom(promise)
       .then((result) => result)

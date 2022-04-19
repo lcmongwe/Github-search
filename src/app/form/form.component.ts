@@ -9,12 +9,19 @@ import { DataRequestService } from '../data-request.service';
 export class FormComponent implements OnInit {
   userInput: string = '';
   user: any;
+  repos: any[];
   constructor(private dataRequestService: DataRequestService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
+  getRepo(repos: any) {
+    // this.
+    
+  }
   getUsername(userName: string) {
     this.dataRequestService
       .getUser(userName)
       .then((result) => (this.user = result));
+    
   }
+
 }
