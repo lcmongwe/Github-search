@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { environment } from '../environments/environment';
-import { lastValueFrom } from 'rxjs';
+import { lastValueFrom } from 'rxjs'
 
 @Injectable({
   providedIn: 'root',
 })
 export class DataRequestService {
+
   constructor(private httpClient: HttpClient) {}
 
   async getUser(userName: string) {
