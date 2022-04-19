@@ -6,7 +6,7 @@ import { SearchComponent } from './search/search.component';
 import { FormComponent } from './form/form.component';
 const routes: Routes = [
   { path: 'search', component: SearchComponent },
-  { path: '', component: GithubComponent },
+  { path: 'git', component: GithubComponent },
   { path: 'form', component: FormComponent },
   // { path: '**', component: NotFoundComponent },
   // { path: 'goals/:id', component: GoalDetailComponent },
