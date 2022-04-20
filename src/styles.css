@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
-/* * {
-  background-image: url("../src/assets/back1.jpg");
-} */
+* {
+  background-color:  linear-gradient(
+    180deg,
+    rgba(185, 105, 31, 0.66) 0%,
+    rgba(6, 43, 172, 0.429) 100%
+  );;
+}
