@@ -18,29 +18,17 @@ userName:string
     private dataRequestService: DataRequestService,
     private http: HttpClient,
     private repoService:RepoService
-  ) {
-    //  this.getRepo(this.userInput).subscribe((repos: any) => {
-    //    this.repos = repos;
-    //  });
-  }
+  ) {}
 
   ngOnInit(): void {}
-  // getRepo(userInput: string) {
-  //   return this.http.get(
-  //     'https://api.github.com/users/' + this.userInput + '/repos'
-  //   );
-  // }
+
   getUsername(userName: string) {
     this.dataRequestService
       .getUser(userName)
       .then((result) => (this.user = result));
-    //  this.getRepo(this.userInput).subscribe((repos: any) => {
-    //    this.repos = repos;
-    //  });
+   
 
-    this.repoService.getRepos(userName).then((repos) => {
-      this.repos = repos;
-    })
+  
   }
 
 }

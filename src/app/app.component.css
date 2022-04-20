@@ -1,1 +1,8 @@
 
+*{
+    background-color:linear-gradient(
+    180deg,
+    rgba(185, 105, 31, 0.66) 0%,
+    rgba(6, 43, 172, 0.429) 100%
+  ); ;
+}
